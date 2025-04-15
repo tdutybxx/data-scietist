@@ -1,0 +1,349 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  width: 550px;
+  height: 30px;
+  display: flex;
+  font-size: 10px;
+}
+.block_data {
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 0px 50px;
+  width: 30%;
+}
+.img_tree {
+  width: 12px;
+  height: 12px;
+}
+.link_data {
+  color: red;
+  text-decoration: none;
+}
+.link_data_new {
+  color: black;
+  text-decoration: none;
+}
+.text_data {
+}
+.block_nav {
+  align-items: center;
+  display: flex;
+  width: 70%;
+  margin: 0px 0px 0px 44px;
+}
+.name {
+  margin: 0px 15px 0px 0px;
+}
+.main {
+  width: 550px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+}
+.fone {
+  width: 550px;
+  height: 280px;
+  background-image: url("https://wallpapers.com/images/hd/orange-and-blue-2560-x-1920-4x96aslrd1txmymv.jpg");
+}
+.circle {
+  width: 550px;
+  height: 280px;
+}
+.block_text1 {
+  width: 350px;
+  height: 66px;
+  margin: 32px 0px 15px 54px;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 19px;
+}
+.block_text2 {
+  width: 250px;
+  height: 32px;
+  color: aliceblue;
+  margin: 0px 0px 0px 54px;
+  font-size: 14px;
+}
+.flex_freedom {
+  width: 441px;
+  height: 45px;
+  margin: 28px 0px 0px 54px;
+  display: flex;
+}
+.freedom1 {
+  width: 120px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 58px 0px 0px;
+}
+.fr_image {
+  margin: 0px 3px;
+}
+.image_fr {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+.text_fr1 {
+  font-size: 6px;
+  color: aliceblue;
+}
+.freedom2 {
+  width: 120px;
+  height: 22px;
+  display: flex;
+  margin: 0px 58px 0px 0px;
+}
+.fr2_image {
+}
+.image_fr2 {
+  width: 15px;
+  height: 15px;
+}
+.text_fr2 {
+  font-size: 6px;
+  color: aliceblue;
+}
+.freedom3 {
+  width: 170px;
+  height: 40px;
+  display: flex;
+  margin: 0px 58px 0px 0px;
+}
+.fr3_image {
+}
+.image_fr3 {
+  width: 15px;
+  height: 15px;
+}
+.text_fr3 {
+  font-size: 6px;
+  color: aliceblue;
+}
+.text_info {
+  width: 325px;
+  height: 23px;
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: bold;
+  margin: -10px 0px 0px 54px;
+}
+.button_click {
+  width: 72px;
+  height: 20px;
+  margin: 20px 0px 0px 54px;
+}
+.button {
+  width: 72px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: orange;
+  color: black;
+  border: hidden;
+  font-size: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block_info {
+  width: 550px;
+  height: 618px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://avatars.mds.yandex.net/i?id=7b404e84bdc05e50838a8b58e3db3849_l-5299999-images-thumbs&n=13");
+  background-repeat: no-repeat;
+}
+.promise {
+  width: 448px;
+  height: 220px;
+  margin: 30px 0px 0px 100px;
+}
+.text_promise {
+  width: 372px;
+  height: 32px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+.skills_up {
+  width: 340px;
+  height: 56px;
+  display: flex;
+  margin: 26px 0px 0px 0px;
+}
+.skill1 {
+  width: 80px;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+.skill1_img {
+  width: 20px;
+  height: 16px;
+  margin: 0px 0px 10px 0px;
+}
+.skill1_text {
+  width: 82px;
+  height: 32px;
+  font-size: 9px;
+}
+.skill2 {
+  width: 66px;
+  height: 56px;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.skill2_img {
+}
+.skill2_text {
+  width: 66px;
+  height: 10px;
+  font-size: 9px;
+  margin: -4.5px 0px 0px 0px;
+}
+.skill3 {
+  width: 63px;
+  height: 56px;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+.skill3_img {
+}
+.skill3_text {
+  width: 66px;
+  height: 10px;
+  font-size: 9px;
+  margin: -4.5px 0px 0px 0px;
+}
+.skills_down {
+  width: 340px;
+  height: 56px;
+  display: flex;
+  margin: 18px 0px 0px 0px;
+}
+.skill4 {
+  width: 80px;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+.skill4_img {
+  width: 20px;
+  height: 16px;
+  margin: 0px 0px 10px 0px;
+}
+.skill4_text {
+  width: 82px;
+  height: 32px;
+  font-size: 9px;
+}
+.skill5 {
+  width: 66px;
+  height: 56px;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.skill5_img {
+}
+.skill5_text {
+  width: 66px;
+  height: 10px;
+  font-size: 9px;
+  margin: -4.5px 0px 0px 0px;
+}
+.skill6 {
+  width: 63px;
+  height: 56px;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+.skill6_img {
+}
+.skill6_text {
+  width: 66px;
+  height: 10px;
+  font-size: 9px;
+  margin: -4.5px 0px 0px 0px;
+}
+.vacations {
+  width: 550px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+}
+.vacations_text {
+  width: 467px;
+  height: 26px;
+  font-size: 40px;
+  color: grey;
+  opacity: 40%;
+  margin: -16px 0px 22px 0px;
+  font-weight: bold;
+}
+.vc_windows {
+  width: 540px;
+  height: 112px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.window {
+  width: 80px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 2px grey;
+  margin: 0px 5px 0px 0px;
+}
+.icon {
+}
+.img_icon {
+  width: 16px;
+  height: 16px;
+  margin: 8px 0px 9px 8px;
+}
+.window_text {
+  width: 75px;
+  height: 20px;
+  font-size: 8.9px;
+  margin: 0px 0px 10px 10px;
+}
+.window_price {
+  width: 50px;
+  height: 7px;
+  color: red;
+  font-size: 7.5px;
+  margin: 0px 0px 0px 10px;
+}
+.window1_logo {
+}
+.logo {
+  width: 50px;
+  height: 15px;
+  margin: 10px 0px 0px 10px;
+}
+.window:hover {
+  background-color: blanchedalmond;
+  width: 85px;
+  height: 115px;
+  position: relative;
+  bottom: 10px;
+}
